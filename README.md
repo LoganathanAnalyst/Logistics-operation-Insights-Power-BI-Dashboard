@@ -1,9 +1,9 @@
-# 🚀 SupplyChain360 – Advanced Power BI Analytics Dashboard
+# 🚀 Logistics-operation – Advanced Power BI Analytics Dashboard
 
 ---
 
 ## 🌐 Overview
-**SupplyChain360** is a professional Power BI dashboard designed to transform raw supply chain data into actionable insights.  
+**Logisitics-operation ** is a professional Power BI dashboard designed to transform raw supply chain data into actionable insights.  
 Perfect for **Data Analysts, BI Developers, Supply Chain Managers**, and decision-makers who want real-time visibility into operations.
 
 ---
@@ -57,7 +57,7 @@ Perfect for **Data Analysts, BI Developers, Supply Chain Managers**, and decisio
 
 ### **1️⃣ Download the PBIX File**
 ```
-SupplyChain360.pbix
+Logisitics-operation .pbix
 ```
 
 ### **2️⃣ Connect Your Data Sources**
@@ -76,7 +76,7 @@ Go to:
 <img width="901" height="521" alt="Logisticsdashboard" src="https://github.com/user-attachments/assets/438f555b-efb4-4e5b-b2db-66a0650dcd5d" />
 
 
-**✨ Supply Chain Dashboard – Clean, Interactive & Insightful**
+**✨Logisitics-operation – Clean, Interactive & Insightful**
 
 ---
 
@@ -92,7 +92,7 @@ Go to:
 
 ## 📁 Project Structure  
 ```
-├── SupplyChain360.pbix
+├── Logisitics-operation .pbix
 ├── README.md
 ├── /assets
 │     ├── dashboard-preview.png
