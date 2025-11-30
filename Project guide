@@ -1,0 +1,54 @@
+Logistics operation Dashboard — Step-by-Step Guide
+Introduction
+This guide explains the structure, usage, and maintenance of the Supply Chain Insights Power BI project.
+It's written for analysts, report authors, and maintainers.
+Prerequisites
+• Power BI Desktop (recommended latest stable release)
+• Access to source data (CSV, SQL, or other connectors)
+• Basic knowledge of Power Query and DAX
+Project structure
+The .pbix contains data model (tables), queries (Power Query), measures (DAX), and report pages.
+Typical pages:
+• Overview — Key KPIs and executive summary
+• Inventory — Stock levels, aging, by location
+• Orders — Order status, fulfillment funnel
+• Suppliers — Lead times, on-time delivery
+• Logistics — Shipping performance & transit times
+Data sources & transformation
+Open Transform Data to view each query. Follow these steps:
+1. Inspect each query's source step (CSV path or DB connection string).
+2. Validate applied steps (rename, change type, merges).
+3. If replacing with your data, adjust column names or add mapping steps.
+4. Set Query Dependencies -> Review privacy levels if using multiple sources.
+Data modeling & relationships
+Ensure primary key relationships: Orders -> OrderLines (OrderID), Products/SKUs linked to OrderLines
+(SKU), Suppliers linked by SupplierID. Check relationship cardinality and cross-filter direction to enable
+correct filtering.
+Key measures (DAX) — examples & tips
+This project uses DAX measures for KPIs. Common patterns used:
+• Total Quantity = SUM(OrderLines[Quantity])
+• OnTime% = DIVIDE(CALCULATE(COUNTROWS(Orders), Orders[DeliveredOnTime]=TRUE),
+COUNTROWS(Orders))
+• InventoryDays = DIVIDE([OnHandQty], [DailyAvgUsage])
+Tip: Use variables (VAR) in complex calculations to improve readability and performance.
+Reports & visuals — how to use
+• Use slicers to change date, location, and supplier context.
+• Drillthrough pages allow row-level analysis—right-click a visual to drillthrough.
+• Tooltips show supporting metrics; edit them from the Format pane.
+Performance & optimization
+• Disable auto date/time if using a Date table.
+• Remove unused columns in Power Query to reduce model size.
+• Use star schema where possible; avoid circular relationships.
+• Reduce cardinality by rounding or bucketing where fine-grained values aren't necessary.
+Deployment to Power BI Service
+1. Save .pbix and publish via Home → Publish to Power BI Service workspace.
+2. Configure dataset credentials and refresh schedule in the Service.
+3. Pin visuals to a dashboard or create an app for wider distribution.
+Troubleshooting
+• Refresh errors: Check credentials, privacy levels, and gateway configuration.
+• Slow visuals: Inspect DAX queries (Performance Analyzer) and simplify measures.
+• Missing data: Confirm filter context and data type mismatches.
+Appendix — recommended next steps
+• Document complex DAX in a markdown file inside /docs.
+• Create parameterized data sources for Dev/Prod.
+• Add sample data CSVs under /data for reproducibility.
