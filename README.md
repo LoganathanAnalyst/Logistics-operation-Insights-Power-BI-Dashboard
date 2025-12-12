@@ -57,7 +57,7 @@ Perfect for **Data Analysts, BI Developers, Supply Chain Managers**, and decisio
 
 ### **1️⃣ Download the PBIX File**
 ```
-Logisitics-operation .pbix
+Logisitics-operation .pbix 
 ```
 
 ### **2️⃣ Connect Your Data Sources**
