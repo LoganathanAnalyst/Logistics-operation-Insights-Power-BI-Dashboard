@@ -85,7 +85,7 @@ Go to:
 - Power Query (M) – ETL Automation  
 - DAX (Advanced & Optimized)  
 - Data Modeling (Star Schema)  
-- UI/UX for BI Dashboards  
+- UI/UX for BI Dashboards   
 - Supply Chain Analytics (KPIs & Metrics)  
 
 ---
