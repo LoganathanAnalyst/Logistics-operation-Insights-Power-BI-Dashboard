@@ -10,7 +10,7 @@ Perfect for **Data Analysts, BI Developers, Supply Chain Managers**, and decisio
 
 ## ⭐ Key Features
 - 🔍 **Inventory Intelligence** – Stock levels, stock aging, safety stock alerts  
-- 🚚 **Logistics Performance** – Delivery accuracy, shipment cycle time, freight insights  
+- 🚚 **Logistics Performance** – Delivery accuracy, shipment cycle time, freight insights   
 - 🤝 **Supplier Performance** – Lead time stability, fill rate, on-time delivery metrics  
 - 📈 **Executive KPIs** – Fulfillment rate, inventory turnover, demand variance  
 
