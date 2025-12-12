@@ -76,7 +76,7 @@ Go to:
 <img width="901" height="521" alt="Logisticsdashboard" src="https://github.com/user-attachments/assets/438f555b-efb4-4e5b-b2db-66a0650dcd5d" />
 
 
-**✨Logisitics-operation – Clean, Interactive & Insightful**
+**✨Logisitics-operation – Clean, Interactive & Insightful** 
 
 ---
 
