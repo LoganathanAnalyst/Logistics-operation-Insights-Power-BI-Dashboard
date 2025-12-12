@@ -4,7 +4,7 @@
 
 ## 🌐 Overview
 **Logisitics-operation ** is a professional Power BI dashboard designed to transform raw supply chain data into actionable insights.  
-Perfect for **Data Analysts, BI Developers, Supply Chain Managers**, and decision-makers who want real-time visibility into operations.   
+Perfect for **Data Analysts, BI Developers, Supply Chain Managers**, and decision-makers who want real-time visibility into operations.    
 
 ---
 
